@@ -1,0 +1,48 @@
+name: dul
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.7.3
+  rive: ^0.13.20
+  flutter_svg: ^2.1.0
+  avatar_glow: ^3.0.1
+  speech_to_text: ^7.4.0
+  permission_handler: ^11.3.1
+  highlight_text: ^1.6.0
+  flutter_tts: ^4.2.5
+  video_player: ^2.1.11
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^4.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/avaters/
+    - assets/Backgrounds/
+    - assets/icons/
+    - assets/RiveAssets/
+    - assets/quis/
+    - assets/shapes/
+
+  
+  fonts:
+    - family: Intel
+      fonts:
+        - asset: assets/Fonts/Inter-Regular.ttf
+        - asset: assets/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/Fonts/Poppins-Bold.ttf
+          weight: 700
