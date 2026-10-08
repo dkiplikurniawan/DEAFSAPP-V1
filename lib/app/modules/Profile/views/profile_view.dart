@@ -7,8 +7,9 @@ import '../controllers/profile_controller.dart';
 class ProfileView extends GetView<ProfileController> {
   const ProfileView({Key? key}) : super(key: key);
   @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
-  }
+   Widget build(BuildContext context) {
+     return const Scaffold(
+       body: Center(child: Text('Profile - coming soon')),
+     );
+   }
 }
